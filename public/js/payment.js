@@ -23,7 +23,7 @@ async function makePayment(amount) {
         "description": "Test Transaction",
         "image": "https://example.com/your_logo",
         "order_id": res.data.order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-        "callback_url": "http://localhost:8000/payment-verify",
+        "callback_url": "/payment-verify",
         "notes": {
             "address": "Razorpay Corporate Office"
         },
