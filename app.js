@@ -11,7 +11,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const User = require('./models/user');
 
-mongoose.connect('mongodb+srv://ysyogeshsharma99:r5SvNd7TSVTEQIFJ@cluster0.ncm0hzf.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://ysyogeshsharma99:SpinTheWheel@yogesh-cluster.66byqen.mongodb.net/fursure?retryWrites=true&w=majority')
     .then(() => console.log('E-com-6Aug connected'))
     .catch(err => console.log(err));
 
